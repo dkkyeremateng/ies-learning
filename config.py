@@ -4,5 +4,5 @@ DB_USERNAME = 'root'
 DB_PASSWORD = ""
 BLOG_DATABASE_NAME = "ies"
 SQLALCHEMY_DATABASE_URI = "mysql://%s:@localhost/%s" % (DB_USERNAME, BLOG_DATABASE_NAME)
-MAIL_USERNAME = "kofwayne305@gmail.com"
-MAIL_PASSWORD = 'GODwagious305'
+MAIL_USERNAME = "example@gmail.com"
+MAIL_PASSWORD = 'password'
