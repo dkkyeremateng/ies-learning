@@ -3,7 +3,7 @@ import sqlalchemy
 
 
 try:
-    db_uri = "mysql://%s:@localhost/%s" % (app.config["DB_USERNAME"], app.config["BLOG_DATABASE_NAME"])
+    db_uri = "mysql://%s:@localhost/" % (app.config["DB_USERNAME"])
     engine = sqlalchemy.create_engine(db_uri)
     conn = engine.connect()
     conn.execute("commit")
