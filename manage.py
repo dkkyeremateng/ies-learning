@@ -10,5 +10,5 @@ manager.add_command("run", Server(use_debugger=True, use_reloader=True, host="lo
 manager.add_command("db", MigrateCommand)
 
 if __name__ == '__main__':
-    db.create_all()
+    
     manager.run()
